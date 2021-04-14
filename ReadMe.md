@@ -22,7 +22,6 @@
 ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=ffffff)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?&logo=javascript&logoColor=000000)
 ![C++](https://img.shields.io/badge/-C++-00599C?logo=c%2b%2b&logoColor=ffffff)
-![C](https://img.shields.io/badge/-C-A8B9CC?&logo=C&logoColor=000000)
 
 ![VS Code](https://img.shields.io/badge/VSCode-%23007ACC?logo=Visual-studio-code)
 ![Pycharm](https://img.shields.io/badge/PyCharm-green?logo=PyCharm)
