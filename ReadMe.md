@@ -3,7 +3,7 @@ Hi, I am Savio Prince.
 
 ## Projects
 <a href="https://github.com/ianfab/Fairy-Stockfish">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=Fairy-Stockfish&theme=algolia" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=lichess-bot&theme=algolia" />
 </a>
 <a href="https://github.com/ianfab/fishtest">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ianfab&repo=fishtest&theme=algolia" />
