@@ -1,8 +1,8 @@
 ### Hi, I am SAVIO PRINCE. I am Beginner Developer. I like Hacking and Reverse engineering.
 
 ## Projects
-<a href="https://github.com/OIVAS7572/Lichess">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=lichess-bot&theme=algolia" />
+<a href="https://github.com/OIVAS7572/lichess-bot">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=Lichess-Bot&theme=algolia" />
 </a>
 
 ## Contributions
