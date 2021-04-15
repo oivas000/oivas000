@@ -27,6 +27,6 @@
 ![Pycharm](https://img.shields.io/badge/PyCharm-green?logo=PyCharm)
 ![Vim](https://img.shields.io/badge/Vim-019733?logo=vim)
 
-![Docker](https://img.shields.io/badge/Docker-black?logo=Docker)
+![Docker](https://img.shields.io/badge/-Docker-black?logo=Docker)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=000000)
 ![Git](https://img.shields.io/badge/-Git-%23F05032?logo=git&logoColor=%23ffffff)
