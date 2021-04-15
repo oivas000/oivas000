@@ -2,7 +2,7 @@
 
 ## Projects
 <a href="https://github.com/OIVAS7572/lichess-bot">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=lichess-bot&theme=algolia" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=Lichess-Bot&theme=algolia" />
 </a>
 
 ## Contributions
