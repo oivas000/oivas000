@@ -1,4 +1,4 @@
-### Hi, I am SAVIO PRINCE. I am Beginner Developer. I like Hacking and Reverse engineering.
+### Hi, I am SAVIO PRINCE. I am Beginner Developer. I also like Hacking and Reverse engineering.
 
 ## Projects
 <a href="https://github.com/OIVAS7572/lichess-bot">
