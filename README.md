@@ -4,6 +4,9 @@
 <a href="https://github.com/OIVAS7572/lichess-bot">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=Lichess-Bot&theme=algolia" />
 </a>
+<a href="https://github.com/OIVAS7572/ChessLib">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=ChessLib&theme=algolia" />
+</a>
 
 ## Contributions
 <a href="https://github.com/ShailChoksi/lichess-bot">
@@ -11,10 +14,10 @@
 </a>
 
 ## Stats
-<a href="https://github.com/OIVAS7572/OIVAS7572">
+<a>
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=OIVAS7572&show_icons=true&include_all_commits=false&line_height=33&theme=algolia" />
 </a>
-<a href="https://github.com/OIVAS7572/OIVAS7572">
+<a>
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=OIVAS7572&theme=algolia" />
 </a>
 
