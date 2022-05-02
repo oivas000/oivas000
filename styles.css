@@ -1,26 +1,111 @@
-body{color:#fefefe;background:#000000;font-family:"Lucida Console","Courier New",monospace;font-weight:bold;font-size:125%;}
+body{color:#fefefe;background:#000000;font-family:"Lucida Console","Courier New",monospace;font-weight:bold;}
+img{max-width:100%;height:auto;}
+audio{display:none;}
+
+#hello{font-size:1rem;padding:3rem 0rem 0rem 3rem;}
+#I{color:#fefefe;font-size:1.2rem;}
+#name{color:#47fc00;font-size:2rem;}
+#known{color:#fefefe;font-size:1rem;}
+#OIVAS7572{color:#0099ff;font-size:1.3rem;}
+#dev{font-size:1.2rem;}
+#interests{font-size:1.1rem;}
+#PCS{font-size:0.8rem;margin:10%10%10%10%;}
+#tech{font-size:0.8rem;margin:0%10%10%10%;}
+
+@media (min-width: 576px) {
+#hello{font-size:1.5rem;padding:3rem 0 0 3rem;}
+#I{color:#fefefe;font-size:1.8rem;}
+#name{color:#47fc00;font-size:3rem;padding:0 1rem 1rem 0;}
+#known{color:#fefefe;font-size:1.8rem;}
+#OIVAS7572 {color:#0099ff;font-size:2rem;}
+#dev{font-size:1.5rem;}
+#interests{font-size:1.5rem;padding:0 10rem;}
+#line{margin:0 3rem;}
+#PCS{font-size:1rem;margin:10%10%10%10%;}
+#tech{font-size:1rem;margin:0%10%10%10%;}}
+
+@media (min-width: 768px) {
+#hello{font-size:1.5rem;padding:3rem 0 0 3rem;}
+#I{color:#fefefe;font-size:1.8rem;}
+#name{color:#47fc00;font-size:3rem;padding:0 1rem 1rem 0;}
+#known{color:#fefefe;font-size:1.8rem;}
+#OIVAS7572 {color:#0099ff;font-size:2rem;}
+#dev{font-size:1.5rem;}
+#interests{font-size:1.5rem;padding:0 10rem;}
+#line{margin:0 3rem;}
+#PCS{font-size:1rem;margin:10%10%10%10%;}
+#tech{font-size:1rem;margin:0%10%10%10%;}}
+
+@media (min-width: 992px) {
+#hello{font-size:1.5rem;padding:3rem 0 0 3rem;}
+#I{color:#fefefe;font-size:1.8rem;}
+#name{color:#47fc00;font-size:3rem;padding:0 1rem 1rem 0;}
+#known{color:#fefefe;font-size:1.8rem;}
+#OIVAS7572 {color:#0099ff;font-size:2rem;}
+#dev{font-size:1.5rem;}
+#interests{font-size:1.5rem;padding:0 10rem;}
+#line{margin:0 3rem;}
+#PCS{font-size:1rem;margin:10%10%10%10%;}
+#tech{font-size:1rem;margin:0%10%10%10%;}}
+
+@media (min-width: 1200px) {
+#hello{font-size:1.5rem;padding:3rem 0 0 3rem;}
+#I{color:#fefefe;font-size:1.8rem;}
+#name{color:#47fc00;font-size:3rem;padding:0 1rem 1rem 0;}
+#known{color:#fefefe;font-size:1.8rem;}
+#OIVAS7572 {color:#0099ff;font-size:2rem;}
+#dev{font-size:1.5rem;}
+#interests{font-size:1.5rem;padding:0 10rem;}
+#line{margin:0 3rem;}
+#PCS{font-size:1rem;margin:10%10%10%10%;}
+#tech{font-size:1rem;margin:0%10%10%10%;}}
+
+@media (min-width: 1400px) {
+#hello{font-size:1.5rem;padding:3rem 0 0 3rem;}
+#I{color:#fefefe;font-size:1.5rem;}
+#name{color:#47fc00;font-size:4rem;padding:0 0 0 0;}
+#known{color:#fefefe;font-size:2rem;}
+#OIVAS7572 {color:#0099ff;font-size:2.5rem;}
+#dev{font-size:1.5rem;}
+#interests{font-size:1.5rem;}
+#line{margin:1rem 3rem;}
+#PCS{font-size:1rem;padding:0rem 2rem;}
+#tech{font-size:1rem;padding:0rem 2rem;}}
+
+
+/*
+@media screen and (min-width: 300px) {
+body{color:#fefefe;background:#000000;font-family:"Lucida Console","Courier New",monospace;font-weight:bold;}
 img{max-width:110%;height:auto;}
 audio{display:none;}
-#intro{margin:5%5%5%5%;}
-#Hello{font-size:100%;}
-#I{color:#fefefe;font-size:110%;}
-#Name{color:#47fc00;margin:0%0%0%0%;font-size:160%;}
-#Known{color:#fefefe;font-size:80%;}
-#OIVAS7572{color:#0099ff;font-size:130%;}
-#Dev{font-size: 120%;}
-#Interests{font-size:120%;}
-#PCS{font-size:90%;margin:10%10%10%10%;}
-#tech{font-size:90%;margin:0%10%10%10%;}
-@media screen and (min-width: 470px) {
-body{color:#fefefe;background:#000000;font-family:"Lucida Console","Courier New",monospace;font-weight:bold;font-size:100%;}
-audio{display:none;}
-#intro{margin:10%10%10%10%;}
-#Hello{font-size:150%;}
-#I{color:#fefefe;font-size:180%;}
-#Name{color:#47fc00;font-size:350%;}
-#Known{color:#fefefe;font-size:110%;}
-#OIVAS7572 {color:#0099ff;font-size:150%;}
-#Dev{font-size:150%;}
-#Interests{font-size:150%;}
-#PCS{font-size:110%;margin:10%10%10%10%;}
-#tech{font-size:110%;margin:0%10%10%10%;}}
+#hello{font-size:1rem;padding:3rem 0rem 0rem 3rem;}
+#I{color:#fefefe;font-size:1.2rem;}
+#name{color:#47fc00;font-size:2rem;}
+#known{color:#fefefe;font-size:1rem;}
+#OIVAS7572{color:#0099ff;font-size:1.3rem;}
+#dev{font-size:1.2rem;}
+#interests{font-size:1.1rem;}
+#PCS{font-size:0.8rem;margin:10%10%10%10%;}
+#tech{font-size:0.8rem;margin:0%10%10%10%;}}
+
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+
+
+*/
