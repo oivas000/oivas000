@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="application-name" content="OIVAS7572">
   <meta name="author" content="OIVAS7572">
-  <meta name="description" content="OIVAS7572's Web">
+  <meta name="description" content="OIVAS7572" s Web">
   <meta name="keywords" content="OIVAS7572, SAVIO PRINCE, Lichess-Bot">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SAVIO PRINCE (OIVAS7572)</title>
@@ -14,80 +14,65 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/site.webmanifest">
   <link rel="stylesheet" href="styles.css">
-  <script>
-    window.addEventListener('load', function () {
-      var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-      var source = audioCtx.createBufferSource();
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', 'Creepy.mp3');
-      xhr.responseType = 'arraybuffer';
-      xhr.addEventListener('load', function (r) {
-        audioCtx.decodeAudioData(
-          xhr.response,
-          function (buffer) {
-            source.buffer = buffer;
-            source.connect(audioCtx.destination);
-            source.loop = true;
-          });
-        source.start(0);
-      });
-      xhr.send();
-    });
-  </script>
 </head>
+
 <body>
-  <div id="intro">
-    <p align="left" id="hello">Hello World,</p>
-    <p align="middle" id="I">I am</p>
-    <h1 align="middle" id="name">SAVIO PRINCE.</h1>
-    <p align="middle" id="OIVAS7572"><span id="known">Known as </span>OIVAS7572.</p>
-    <p align="middle" id="dev">A Beginner Developer.</p>
-    <p align="middle" id="interests">Interests in Low-level programming, Protocols, Cryptography, Network engineering
-      &amp; Reverse engineering.</p>
-    <br>
-    <hr id="line">
-  </div>
-  <embed type="text/html" src="test.html" width="100%" height="200"> 
-  <div id="PCS">
-    <h2 align="left" id="Projects">Projects</h2>
-    <p><a href="https://github.com/OIVAS7572/lichess-bot">
-        <img align="centre"
-          src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=Lichess-Bot&theme=midnight-purple" /></a>
-      <a href="https://github.com/OIVAS7572/ChessLib">
-        <img align="centre"
-          src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=ChessLib&theme=midnight-purple" /></a>
-    </p>
-    <h2 align="left" id="Contributions">Contributions</h2>
-    <p><a href="https://github.com/ShailChoksi/lichess-bot">
-        <img align="centre"
-          src="https://github-readme-stats.vercel.app/api/pin/?username=ShailChoksi&repo=lichess-bot&show_owner=true&theme=midnight-purple" /></a>
-    </p>
-    <h2 align="left" id="Stats">Stats</h2>
-    <p><a><img align="centre"
-          src="https://github-readme-stats.vercel.app/api?username=OIVAS7572&show_icons=true&include_all_commits=false&line_height=33&theme=midnight-purple" /></a>
-      <a><img align="centre"
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=OIVAS7572&theme=midnight-purple" /></a>
-    </p>
-  </div>
-  <div id="tech">
-    <h2 align="left" id="Technologies">Technologies</h2>
-    <p><img align="centre" src="img/badges/python.svg" alt="Python">
-      <img align="centre" src="img/badges/rust.svg" alt="Rust">
-      <img align="centre" src="img/badges/c++.svg" alt="C++">
-      <img align="centre" src="img/badges/javascript.svg" alt="JavaScript">
-      <img align="centre" src="img/badges/html5.svg" alt="HTML5">
-      <img align="centre" src="img/badges/css.svg" alt="CSS">
-    </p>
-    <p><img align="centre" src="img/badges/vscode.svg" alt="VSCode">
-      <img align="centre" src="img/badges/vim.svg" alt="Vim">
-      <img align="centre" src="img/badges/gitpod.svg" alt="Gitpod">
-    </p>
-    <p><img align="centre" src="img/badges/docker.svg" alt="Docker">
-      <img align="centre" src="img/badges/linux.svg" alt="Linux">
-      <img align="centre" src="img/badges/git.svg" alt="Git">
-    </p>
-  </div>
+  <scroll id="scroll" class="scroll">
+    <div class="intro">
+      <p align="left" id="hello">Hello World,</p>
+      <p align="middle" id="I">I am</p>
+      <h1 align="middle" id="name">SAVIO PRINCE.</h1>
+      <p align="middle" id="OIVAS7572"><span id="known">Known as </span>OIVAS7572.</p>
+      <p align="middle" id="dev">A Beginner Developer.</p>
+      <p align="middle" id="interests">Interests in Low-level programming, Protocols, Cryptography, Network engineering
+        &amp; Reverse engineering.</p>
+      <br>
+      <hr id="line">
+    </div>
+    <div class="PCS">
+      <h2 align="left" id="Projects">Projects</h2>
+      <p><a href="https://github.com/OIVAS7572/lichess-bot">
+          <img align="centre"
+            src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=Lichess-Bot&theme=midnight-purple" /></a>
+        <a href="https://github.com/OIVAS7572/ChessLib">
+          <img align="centre" id="chesslib"
+            src="https://github-readme-stats.vercel.app/api/pin/?username=OIVAS7572&repo=ChessLib&theme=midnight-purple" /></a>
+      </p>
+      <h2 align="left" id="Contributions">Contributions</h2>
+      <p><a href="https://github.com/ShailChoksi/lichess-bot">
+          <img align="centre"
+            src="https://github-readme-stats.vercel.app/api/pin/?username=ShailChoksi&repo=lichess-bot&show_owner=true&theme=midnight-purple" /></a>
+      </p>
+      <h2 align="left" id="Stats">Stats</h2>
+      <p><a><img align="centre"
+            src="https://github-readme-stats.vercel.app/api?username=OIVAS7572&show_icons=true&include_all_commits=false&line_height=33&theme=midnight-purple" /></a>
+        <a><img align="centre" id="lang"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=OIVAS7572&theme=midnight-purple" /></a>
+      </p>
+    </div>
+    <div class="tech">
+      <h2 align="left" id="Technologies">Technologies</h2>
+      <p><img align="centre" src="img/badges/python.svg" alt="Python">
+        <img align="centre" src="img/badges/rust.svg" alt="Rust">
+        <img align="centre" src="img/badges/c++.svg" alt="C++">
+        <img align="centre" src="img/badges/javascript.svg" alt="JavaScript">
+        <img align="centre" src="img/badges/html5.svg" alt="HTML5">
+        <img align="centre" src="img/badges/css.svg" alt="CSS">
+      </p>
+      <p><img align="centre" src="img/badges/vscode.svg" alt="VSCode">
+        <img align="centre" src="img/badges/vim.svg" alt="Vim">
+        <img align="centre" src="img/badges/gitpod.svg" alt="Gitpod">
+      </p>
+      <p><img align="centre" src="img/badges/docker.svg" alt="Docker">
+        <img align="centre" src="img/badges/linux.svg" alt="Linux">
+        <img align="centre" src="img/badges/git.svg" alt="Git">
+      </p>
+    </div>
+  </scroll>
+  <script src="script.js"></script>
+  <script src="scroll.js"></script>
   <script>
+    scroll.init();
   </script>
 </body>
 </html>
