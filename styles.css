@@ -1,81 +1,126 @@
-body{color:#ffffff;background:#090909;display:grid;font-family:"monospace","Lucida Console","Courier New";font-weight:bold;}
-img{max-width:100%;height:auto;}
-audio{display:none;}
-
+body{color:#fff;background:#090909;display:grid;font-family:"monospace","Lucida Console";font-weight:700}
+img{max-width:100%;height:auto}
+audio{display:none}
+@media (max-width: 346.99px) {
+#hello{font-size:1rem;padding:.5rem 0 0 .5rem;margin-bottom:2.5rem}
+#I{color:#fefefe;font-size:1.1rem;margin-bottom:-.2rem}
+#name{color:#47fc00;font-size:1.8rem;margin-bottom:-.3rem}
+#known{color:#fefefe;font-size:.9rem}
+#OIVAS7572{color:#09f;font-size:1.4rem;margin-bottom:-.1rem}
+#dev{font-size:1.1rem}
+#interests{font-size:1rem;padding:0 1rem}
+#line{margin:.5rem 6rem}
+img{max-width:95%}
+.PCS{font-size:.8rem;padding:1rem 0 .2rem .2rem}
+#chesslib{padding:1rem 0 0}
+#lang{padding:1rem 0 0}
+.tech{font-size:.8rem;padding:0 .2rem;margin:-2rem 0 2rem}
+}
+@media (min-width: 350px) and (max-width: 399.99px) {
+#hello{font-size:1rem;padding:.5rem 0 0 .5rem;margin-bottom:2.5rem}
+#I{color:#fefefe;font-size:1.3rem;margin-bottom:-.2rem}
+#name{color:#47fc00;font-size:2rem;margin-bottom:-.3rem}
+#known{color:#fefefe;font-size:1rem}
+#OIVAS7572{color:#09f;font-size:1.7rem;margin-bottom:-.1rem}
+#dev{font-size:1.2rem}
+#interests{font-size:1.1rem;padding:0 1.2rem}
+#line{margin:1rem 5rem}
+img{max-width:95%}
+.PCS{font-size:.9rem;padding:1rem 0 .5rem .5rem}
+#chesslib{padding:1rem 0 0}
+#lang{padding:1rem 0 0}
+.tech{font-size:1rem;padding:0 .5rem;margin:-2rem 0 2rem}
+}
+@media (min-width: 400px) and (max-width: 559.99px) {
+#hello{font-size:1.2rem;padding:.5rem 0 0 .5rem}
+#I{color:#fefefe;font-size:1.5rem;margin-bottom:-.4rem}
+#name{color:#47fc00;font-size:2.3rem;margin-bottom:-.3rem}
+#known{color:#fefefe;font-size:1rem}
+#OIVAS7572{color:#09f;font-size:1.9rem;margin-bottom:-.3rem}
+#dev{font-size:1.4rem}
+#interests{font-size:1.2rem;padding:0 1.2rem}
+#line{margin:1rem 5rem}
+img{max-width:95%}
+.PCS{font-size:.9rem;padding:3rem 0 2rem 2rem}
+#chesslib{padding:1rem 0 0}
+#lang{padding:1rem 0 0}
+.tech{font-size:1rem;padding:0 2rem;margin:-2rem 0 2rem}
+}
+@media (min-width: 560px) and (max-width: 575.99px) {
+#hello{font-size:1.2rem;padding:.5rem 0 0 .5rem}
+#I{color:#fefefe;font-size:1.5rem;margin-bottom:-.4rem}
+#name{color:#47fc00;font-size:2.8rem;margin-bottom:-.8rem}
+#known{color:#fefefe;font-size:1.4rem}
+#OIVAS7572{color:#09f;font-size:2.4rem;margin-bottom:-.4rem}
+#dev{font-size:1.5rem}
+#interests{font-size:1.5rem;padding:0 1.3rem}
+#line{margin:1rem 4rem}
+.PCS{font-size:1rem;padding:3rem 0 2rem 2rem}
+#chesslib{padding:1rem 0 0}
+#lang{padding:1rem 0 0}
+.tech{font-size:1rem;padding:0 2rem;margin:-2rem 0 2rem}
+}
 @media (min-width: 576px) and (max-width: 767.99px) {
-#hello{font-size:1.4rem;padding:1rem 0 0 1rem;}
-#I{color:#fefefe;font-size:1.8rem;margin-bottom:-0.4rem;}
-#name{color:#47fc00;font-size:3.4rem;margin-bottom:-0.8rem;}
-#known{color:#fefefe;font-size:1.6rem;}
-#OIVAS7572 {color:#0099ff;font-size:2.4rem;margin-bottom:-0.4rem;}
-#dev{font-size:1.7rem;}
-#interests{font-size:1.7rem;padding: 0 1.3rem;}
-#line{margin:1rem 8rem;}
-.PCS{font-size:1rem;padding:3rem 0 3rem 3rem;}
-#chesslib{padding: 1rem 0rem 0rem 0rem}
-#lang{padding: 1rem 0rem 0rem 0rem}
-.tech{font-size:1rem;padding:0rem 3rem;margin:-3rem 0 3rem 0;}}
-
+#hello{font-size:1.4rem;padding:1rem 0 0 1rem}
+#I{color:#fefefe;font-size:1.8rem;margin-bottom:-.4rem}
+#name{color:#47fc00;font-size:3.4rem;margin-bottom:-.8rem}
+#known{color:#fefefe;font-size:1.6rem}
+#OIVAS7572{color:#09f;font-size:2.4rem;margin-bottom:-.4rem}
+#dev{font-size:1.7rem}
+#interests{font-size:1.7rem;padding:0 1.3rem}
+#line{margin:1rem 8rem}
+.PCS{font-size:1rem;padding:3rem 0 3rem 3rem}
+#chesslib{padding:1rem 0 0}
+#lang{padding:1rem 0 0}
+.tech{font-size:1rem;padding:0 3rem;margin:-3rem 0 3rem}
+}
 @media (min-width: 768px) and (max-width: 991.99px) {
-#hello{font-size:1.4rem;padding:2rem 0 0 2rem;}
-#I{color:#fefefe;font-size:1.8rem;margin-bottom:-0.4rem;}
-#name{color:#47fc00;font-size:3.5rem;margin-bottom:-0.8rem;}
-#known{color:#fefefe;font-size:1.6rem;}
-#OIVAS7572 {color:#0099ff;font-size:2.4rem;margin-bottom:-0.4rem;}
-#dev{font-size:1.7rem;}
-#interests{font-size:1.7rem;padding: 0 1.3rem;}
-#line{margin:1rem 8rem;}
-.PCS{font-size:1rem;padding:3rem 0 3rem 3rem;}
-#chesslib{padding: 1rem 0rem 0rem 0rem}
-#lang{padding: 1rem 0rem 0rem 0rem}
-.tech{font-size:1rem;padding:0rem 3rem;margin:-3rem 0 3rem 0;}}
-
+#hello{font-size:1.4rem;padding:2rem 0 0 2rem}
+#I{color:#fefefe;font-size:1.8rem;margin-bottom:-.4rem}
+#name{color:#47fc00;font-size:3.5rem;margin-bottom:-.8rem}
+#known{color:#fefefe;font-size:1.6rem}
+#OIVAS7572{color:#09f;font-size:2.4rem;margin-bottom:-.4rem}
+#dev{font-size:1.7rem}
+#interests{font-size:1.7rem;padding:0 1.3rem}
+#line{margin:1rem 8rem}
+.PCS{font-size:1rem;padding:3rem 0 3rem 3rem}
+#chesslib{padding:1rem 0 0}
+#lang{padding:1rem 0 0}
+.tech{font-size:1rem;padding:0 3rem;margin:-3rem 0 3rem}
+}
 @media (min-width: 992px) and (max-width: 1199.99px) {
-#hello{font-size:1.4rem;padding:2rem 0 0 2rem;}
-#I{color:#fefefe;font-size:1.8rem;margin-bottom:-0.4rem;}
-#name{color:#47fc00;font-size:4rem;margin-bottom:-0.8rem;}
-#known{color:#fefefe;font-size:1.6rem;}
-#OIVAS7572 {color:#0099ff;font-size:2.4rem;margin-bottom:-0.4rem;}
-#dev{font-size:1.7rem;}
-#interests{font-size:1.7rem;padding: 0 2rem;}
-#line{margin:1rem 8rem;}
-.PCS{font-size:1rem;padding:2rem 0 3rem 3rem;}
-.tech{font-size:1rem;padding:0rem 3rem;margin:-3rem 0 3rem 0;}}
-
+#hello{font-size:1.4rem;padding:2rem 0 0 2rem}
+#I{color:#fefefe;font-size:1.8rem;margin-bottom:-.4rem}
+#name{color:#47fc00;font-size:4rem;margin-bottom:-.8rem}
+#known{color:#fefefe;font-size:1.6rem}
+#OIVAS7572{color:#09f;font-size:2.4rem;margin-bottom:-.4rem}
+#dev{font-size:1.7rem}
+#interests{font-size:1.7rem;padding:0 2rem}
+#line{margin:1rem 8rem}
+.PCS{font-size:1rem;padding:2rem 0 3rem 3rem}
+.tech{font-size:1rem;padding:0 3rem;margin:-3rem 0 3rem}
+}
 @media (min-width: 1200px) and (max-width: 1399.99px) {
-#hello{font-size:1.4rem;padding:3rem 0 0 3rem;}
-#I{color:#fefefe;font-size:1.8rem;margin-bottom:-0.4rem;}
-#name{color:#47fc00;font-size:4.2rem;margin-bottom:-0.8rem;}
-#known{color:#fefefe;font-size:1.6rem;}
-#OIVAS7572 {color:#0099ff;font-size:2.4rem;margin-bottom:-0.4rem;}
-#dev{font-size:1.7rem;}
-#interests{font-size:1.7rem;padding: 0 4rem;}
-#line{margin:1rem 8rem;}
-.PCS{font-size:1rem;padding:1rem 0 4rem 4rem;}
-.tech{font-size:1rem;padding:0rem 4rem;margin:-3rem 0 4rem 0;}}
-
+#hello{font-size:1.4rem;padding:3rem 0 0 3rem}
+#I{color:#fefefe;font-size:1.8rem;margin-bottom:-.4rem}
+#name{color:#47fc00;font-size:4.2rem;margin-bottom:-.8rem}
+#known{color:#fefefe;font-size:1.6rem}
+#OIVAS7572{color:#09f;font-size:2.4rem;margin-bottom:-.4rem}
+#dev{font-size:1.7rem}
+#interests{font-size:1.7rem;padding:0 4rem}
+#line{margin:1rem 8rem}
+.PCS{font-size:1rem;padding:1rem 0 4rem 4rem}
+.tech{font-size:1rem;padding:0 4rem;margin:-3rem 0 4rem}
+}
 @media (min-width: 1400px) {
-#hello{font-size:1.4rem;padding:4rem 0 0 4rem;}
-#I{color:#fefefe;font-size:1.8rem;margin-bottom:-0.4rem;}
-#name{color:#47fc00;font-size:4.2rem;margin-bottom:-0.8rem;}
-#known{color:#fefefe;font-size:1.6rem;}
-#OIVAS7572 {color:#0099ff;font-size:2.4rem;margin-bottom:-0.4rem;}
-#dev{font-size:1.7rem;}
-#interests{font-size:1.7rem;padding: 0 4rem;}
-#line{margin:1.5rem 8rem;}
-.PCS{font-size:1rem;padding:1rem 0 4rem 4rem;}
-.tech{font-size:1rem;padding:0rem 4rem;margin:-3rem 0 4rem 0;}}
-
-@media (max-width: 575.99px) {
-#hello{font-size:1.2rem;padding:0.5rem 0 0 0.5rem;}
-#I{color:#fefefe;font-size:1.5rem;margin-bottom:-0.4rem;}
-#name{color:#47fc00;font-size:2.8rem;margin-bottom:-0.8rem;}
-#known{color:#fefefe;font-size:1.4rem;}
-#OIVAS7572 {color:#0099ff;font-size:2.4rem;margin-bottom:-0.4rem;}
-#dev{font-size:1.5rem;}
-#interests{font-size:1.5rem;padding: 0 1.3rem;}
-#line{margin:1rem 4rem;}
-.PCS{font-size:1rem;padding:3rem 0 2rem 2rem;}
-#chesslib{padding: 1rem 0rem 0rem 0rem}
-#lang{padding: 1rem 0rem 0rem 0rem}
-.tech{font-size:1rem;padding:0rem 2rem;margin:-2rem 0 2rem 0;}}
+#hello{font-size:1.4rem;padding:4rem 0 0 4rem}
+#I{color:#fefefe;font-size:1.8rem;margin-bottom:-.4rem}
+#name{color:#47fc00;font-size:4.2rem;margin-bottom:-.8rem}
+#known{color:#fefefe;font-size:1.6rem}
+#OIVAS7572{color:#09f;font-size:2.4rem;margin-bottom:-.4rem}
+#dev{font-size:1.7rem}
+#interests{font-size:1.7rem;padding:0 4rem}
+#line{margin:1.5rem 8rem}
+.PCS{font-size:1rem;padding:1rem 0 4rem 4rem}
+.tech{font-size:1rem;padding:0 4rem;margin:-3rem 0 4rem}
+}
