@@ -1,7 +1,7 @@
 <h1>Hi, I am <b>SAVIO PRINCE<b>.<br></h1>
 
 - **A Beginner Developer.**
-- **Interests in Low-level programming, Protocols, Cryptography, Cybersecurity.**
+- **Interests in Low-level programming, Protocols, Cryptography & Cybersecurity.**
 
 <h2 align="left">Projects</h2>
 <p><a href="https://github.com/OIVAS7572/lichess-bot">
@@ -31,15 +31,13 @@
 <p><img align="centre" src="img/badges/python.svg" alt="Python">
 <img align="centre" src="img/badges/rust.svg" alt="Rust">
 <img align="centre" src="img/badges/c++.svg" alt="C++">
+<img align="centre" src="img/badges/wasm.svg" alt="WASM">
 <img align="centre" src="img/badges/javascript.svg" alt="JavaScript">
 <img align="centre" src="img/badges/html5.svg" alt="HTML5">
-<img align="centre" src="img/badges/css.svg" alt="CSS">
-</p>
+<img align="centre" src="img/badges/css.svg" alt="CSS"></p>
 <p><img align="centre" src="img/badges/vscode.svg" alt="VSCode">
 <img align="centre" src="img/badges/vim.svg" alt="Vim">
-<img align="centre" src="img/badges/gitpod.svg" alt="Gitpod">
-</p>
+<img align="centre" src="img/badges/gitpod.svg" alt="Gitpod"></p>
 <p><img align="centre" src="img/badges/docker.svg" alt="Docker">
 <img align="centre" src="img/badges/linux.svg" alt="Linux">
-<img align="centre" src="img/badges/git.svg" alt="Git">
-</p>
+<img align="centre" src="img/badges/git.svg" alt="Git"></p>
