@@ -1,4 +1,4 @@
-window.addEventListener('load', function () {
+window.addEventListener('scroll', function () {
     var audioCtx = new (window.AudioContext || window.webkitAudioContext)();
     var source = audioCtx.createBufferSource();
     var xhr = new XMLHttpRequest();
@@ -15,4 +15,5 @@ window.addEventListener('load', function () {
         source.start(0);
     });
     xhr.send();
+    window.removeEventListener('scroll', arguments.callee);
 });

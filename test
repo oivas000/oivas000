@@ -1,0 +1,17 @@
+ 
+      <div class="showcase"><img class="techChild" align="centre" src="img/badges/python.svg" alt="Python">
+        <img class="techChild" align="centre" src="img/badges/rust.svg" alt="Rust">
+        <img class="techChild" align="centre" src="img/badges/c++.svg" alt="C++">
+        <img class="techChild" align="centre" src="img/badges/wasm.svg" alt="WASM">
+        <img class="techChild" align="centre" src="img/badges/javascript.svg" alt="JavaScript">
+        <img class="techChild" align="centre" src="img/badges/html5.svg" alt="HTML5">
+        <img class="techChild" align="centre" src="img/badges/css.svg" alt="CSS">
+      </div>
+      <div class="showcase"><img class="techChild" align="centre" src="img/badges/vscode.svg" alt="VSCode">
+        <img class="techChild" align="centre" src="img/badges/vim.svg" alt="Vim">
+        <img class="techChild" align="centre" src="img/badges/gitpod.svg" alt="Gitpod">
+      </div>
+      <div class="showcase"><img class="techChild" align="centre" src="img/badges/docker.svg" alt="Docker">
+        <img class="techChild" align="centre" src="img/badges/linux.svg" alt="Linux">
+        <img class="techChild" align="centre" src="img/badges/git.svg" alt="Git">
+      </div>

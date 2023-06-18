@@ -5,20 +5,25 @@
 
 <br>
 <h2 align="left">Projects</h2>
-<p><a href="https://github.com/oivas000/lichess-bot">
-<img align="centre" src="https://github-readme-stats.vercel.app/api/pin/?username=oivas000&repo=Lichess-Bot&theme=midnight-purple"></a>
+<p><a href="https://github.com/oivas000/GNOME-THEME-CLONER">
+<img align="centre" src="https://github-readme-stats.vercel.app/api/pin/?username=oivas000&repo=GNOME-THEME-CLONER&hide_border=true&hide_border=true&theme=radical"></a>
+<a href="https://github.com/oivas000/LocalTube">
+<img align="centre" src="https://github-readme-stats.vercel.app/api/pin/?username=oivas000&repo=LocalTube&hide_border=true&theme=radical"></a>
 <a href="https://github.com/oivas000/ChessLib">
-<img align="centre" src="https://github-readme-stats.vercel.app/api/pin/?username=oivas000&repo=ChessLib&theme=midnight-purple"></a>
+<img align="centre" src="https://github-readme-stats.vercel.app/api/pin/?username=oivas000&repo=ChessLib&hide_border=true&theme=radical"></a>
+<a href="https://github.com/oivas000/lichess-bot">
+<img align="centre" src="https://github-readme-stats.vercel.app/api/pin/?username=oivas000&repo=lichess-bot&hide_border=true&theme=radical"></a>
 </p>
 <br>
 <h2 align="left">Contributions</h2>
 <p><a href="https://github.com/ShailChoksi/lichess-bot">
-<img align="centre" src="https://github-readme-stats.vercel.app/api/pin/?username=ShailChoksi&repo=lichess-bot&show_owner=true&theme=midnight-purple"></a>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=ShailChoksi&repo=lichess-bot&show_owner=true&hide_border=true&theme=radical"></a>
 </p>
 <br>
 <h2 align="left">Stats</h2>
-<p><a><img align="centre" src="https://github-readme-stats.vercel.app/api?username=oivas000&show_icons=true&include_all_commits=false&line_height=33&theme=midnight-purple"></a>
-<a><img align="centre" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oivas000&theme=midnight-purple"></a>
+<p><a><img src="https://streak-stats.demolab.com?user=oivas000&theme=radical&border_radius=6&date_format=j%20M%5B%20Y%5D&hide_border=true&mode=weekly&card_width=500"></a>
+<a><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=oivas000&theme=radical"></a>
+<a><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=oivas000&theme=radical&exclude="></a>
 </p>
 <br>
 <h2 align="left">Ping-me &commat;</h2>
