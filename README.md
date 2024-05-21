@@ -31,7 +31,7 @@
 <a href="https://discord.com/users/1101327244091203625"><img src="img/social/discord.svg" height="64" width="64" alt="Discord"></a>
 <a href="https://www.instagram.com/oivas000/"><img src="img/social/instagram.svg" height="64" width="64" alt="Instagram"></a>
 <a href="https://github.com/oivas000"><img src="img/social/github.svg" height="64" width="64" alt="Github"></a>
-<a href="javascript:location='mailto:\u0068\u0065\u006c\u006c\u006f\u0040\u006f\u0069\u0076\u0061\u0073\u0030\u0030\u0030\u002e\u006c\u0069\u0076\u0065?subject=Hi';void 0"><img src="img/social/email.svg" height="64" width="64" alt="E-mail"></a>
+<a href="javascript:location='mailto:\u0068\u0069\u0040\u006f\u0069\u0076\u0061\u0073\u0030\u0030\u0030\u002e\u0074\u0065\u0063\u0068?subject=Hi';void 0"><img src="img/social/email.svg" height="64" width="64" alt="E-mail"></a>
 </p>
 <br>
 <h2 align="left" id="Technologies">Technologies</h2>
